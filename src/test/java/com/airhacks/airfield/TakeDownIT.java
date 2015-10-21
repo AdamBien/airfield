@@ -40,7 +40,7 @@ public class TakeDownIT {
 
             });
         }
-        this.cut = new TakeDown(LOCAL_REPO, "git://localhost:4242/");
+        this.cut = new TakeDown(LOCAL_REPO, "git://localhost:4242/", null, null);
     }
 
     @Test
